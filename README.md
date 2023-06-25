@@ -1,3 +1,3 @@
 # Sistema-de-cadastro-em-C
 
-Programa feito para demostrar meu desenvolvimento e conhecimento na linguagem C.
+Meu primeiro código em C. Programa feito para demostrar meu desenvolvimento e conhecimento na linguagem C.

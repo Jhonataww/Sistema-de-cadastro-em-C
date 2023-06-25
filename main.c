@@ -14,7 +14,7 @@ struct filecadastro                                      //Estrutura de cadastro
 struct filecadastro cadastro;                            //variavel global de cadastro
 
 
-int frontand(void);                                      //protótipos das funções
+int frontEnd(void);                                      //protótipos das funções
 void bdados(void);
 void matricula(void);
 void lista(void);
@@ -32,7 +32,7 @@ main(void)
     int sair = -1;
     do
     {
-        int menu = frontand();
+        int menu = frontEnd();
 
         switch(menu)                                      //segmentação do código para suas respectivas funções
         {
@@ -85,7 +85,7 @@ main(void)
 }
 
 int
-frontand(void)                                            //função Front-and responsável pela parte visual do menu
+frontEnd(void)                                            //função Front-and responsável pela parte visual do menu
 {
 
     int menu = -1;
